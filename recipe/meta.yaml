@@ -1,5 +1,5 @@
 {% set name = "pystoi" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pystoi-{{ version }}.tar.gz
-  sha256: 9f7f17be8fbf42a3240a52f8bfaef087757c07fa6e19802dd6fc7841123a9267
+  sha256: 1c6f50d6fbfee46b00c922458cdbd27228d9830ca81cea788fd600fc2f7de6e4
 
 build:
   noarch: python
